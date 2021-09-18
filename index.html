@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=".//css/styles.css" rel="stylesheet">
+    
+    <link href=".//img/sololearn.ico">
+    <title>responsive web app │ solo learn</title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script>$(function() {
+        $(".btn").click(function() {
+            $(".submenu").slideToggle(500);
+        });
+    }); </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Awesome app</h1>
+            <h2>This app will change yout life!</h2>
+            <a class="btn">Download Now</a>
+            <div class="submenu">
+                <a href="#"> Link 1 </a>
+                <a href="#"> Link 2 </a>
+            </div>
+        </div>
+    </header>
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <img src="https://www.sololearn.com/uploads/img_blue_pin.png">
+                <p>An awesome feature</p>
+            </div>
+            <div class="feature">
+                <img src="https://www.sololearn.com/uploads/img_blue_chart.png">
+                <p>An awesome feature</p>
+            </div>
+            <div class="feature">
+                <img src="https://www.sololearn.com/uploads/img_blue_msg.png">
+                <p>An awesome feature</p>
+            </div>
+        </div>
+    </section>
+    <section class="quote">
+        <blockquote class="container">
+            <p>"Some great quote!"</p>
+            <cite>Satisfied Customer</cite>
+        </blockquote>
+    </section>
+    <footer>
+        <div class="container">
+            <ul>
+                <li> <a>Home</a> </li>
+                <li> <a>About</a> </li>
+                <li> <a>Contacts</a> </li>
+            </ul>
+            <p>© All rights reserved. </p>
+        </div>
+    </footer>
+</body>
+</html>
